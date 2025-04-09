@@ -1,3 +1,5 @@
+import box from "./ui/box";
+
 function HeroSection() {
   return (
     <div className="h-screen w-full flex flex-col justify-start items-start pt-12 md:justify-center px-4 md:px-8 text-white bg-black">

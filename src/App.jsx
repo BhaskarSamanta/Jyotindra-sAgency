@@ -2,7 +2,8 @@ import "./App.css"
 import Navbar from "./Components/Navbar"
 import HeroSection from "./Components/HeroSection"
 import StatsSection from "./Components/Stats-section"
-import { Button } from "./Components/ui/button"
+// import { Button } from "./Components/ui/button"
+import ServiceAccordition from "./Components/ServiceAccordition"
 function App() {
   return (
     <>
@@ -16,15 +17,18 @@ function App() {
       <StatsSection />
       {/* services Section */}
       <div className="flex justify-center mt-44">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-full pl-4 pr-4">
 
         <p className="text-4xl font-semibold text-gray-800 mt-10">
           OUR SERVICES & WORKS
         </p>
         
-        <p className="text-sm text-center font-semibold text-gray-800 mt-1 ml-4 opacity-70">
+        <p className="text-sm text-center font-semibold text-gray-800 mt-1 ml-4 opacity-70 mb-10">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/> Quisquam, voluptatibus.
         </p>
+        <ServiceAccordition />
+      </div>
+      <div>
       </div>
       </div>
 
