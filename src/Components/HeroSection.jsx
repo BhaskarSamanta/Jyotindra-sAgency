@@ -2,7 +2,16 @@ import box from "./ui/box";
 
 function HeroSection() {
   return (
-    <div className="h-screen w-full flex flex-col justify-start items-start pt-12 md:justify-center px-4 md:px-8 text-white bg-black">
+    <div className="relative h-screen w-full flex flex-col justify-start items-start pt-12 md:justify-center px-4 md:px-8 text-white">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        src="../../public/Best SaaS Product Demo Video  Teamble - Zelios - Animated Video Production (1080p, h264).mp4" // Replace with your video file name
+        autoPlay
+        loop
+        muted
+      ></video>
+
       {/* Main Heading */}
       <h1 className="text-6xl md:text-8xl font-medium leading-snug md:leading-tight">
         WE ARE <br />

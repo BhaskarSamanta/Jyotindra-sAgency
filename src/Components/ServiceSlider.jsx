@@ -33,7 +33,7 @@ export default function ServiceSlider({ cards }) {
                     {card.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="text-xs px-2 py-1 bg-gray-200 rounded-md"
+                        className="text-xs font-medium px-2 py-1 bg-transparent border border-gray-400 rounded-md"
                       >
                         {tag}
                       </span>
