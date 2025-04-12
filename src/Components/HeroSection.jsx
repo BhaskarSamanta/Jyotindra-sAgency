@@ -6,7 +6,7 @@ function HeroSection() {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-        src="/Best SaaS Product Demo Video  Teamble - Zelios - Animated Video Production (1080p, h264).mp4" // Replace with your video file name
+        src="/demo.mp4" // Replace with your video file name
         autoPlay
         loop
         muted
