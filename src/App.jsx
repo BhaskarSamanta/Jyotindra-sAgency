@@ -14,13 +14,13 @@ function App() {
       subtext: "ultricies nec, pellentesque eu, pretium quis, sem.",
       cards: [
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "SFX Project 1",
           description: "Description for SFX Project 1.",
           tags: ["SFX", "VFX"],
         },
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "SFX Project 2",
           description: "Description for SFX Project 2.",
           tags: ["Special Effects", "Animation"],
@@ -33,25 +33,25 @@ function App() {
       subtext: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       cards: [
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "3D Model 1",
           description: "Description for 3D Model 1.",
           tags: ["3D", "Modeling"],
         },
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "3D Model 2",
           description: "Description for 3D Model 2.",
           tags: ["Rendering", "Design"],
         },
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "3D Model 2",
           description: "Description for 3D Model 2.",
           tags: ["Rendering", "Design"],
         },
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "3D Model 2",
           description: "Description for 3D Model 2.",
           tags: ["Rendering", "Design"],
@@ -64,13 +64,13 @@ function App() {
       subtext: "Praesent libero. Sed cursus ante dapibus diam.",
       cards: [
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "Motion Capture 1",
           description: "Description for Motion Capture 1.",
           tags: ["Motion", "Capture"],
         },
         {
-          image: "../public/dummy.jpeg",
+          image: "/dummy.jpeg",
           title: "Motion Capture 2",
           description: "Description for Motion Capture 2.",
           tags: ["Performance", "Animation"],
